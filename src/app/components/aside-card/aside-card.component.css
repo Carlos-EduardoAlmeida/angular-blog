@@ -1,0 +1,24 @@
+.container__aside-card{
+    width: 700px;
+    margin-bottom: 10px;
+}
+.container__aside-card-content{
+    display: flex;
+    flex-direction: row;
+}
+.aside-card__photo img{
+    width: 200px;
+    min-width: 200px;
+}
+.aside-card__title{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.container__aside-card__separator{
+    margin-top: 10px;
+}
