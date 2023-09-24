@@ -1,14 +1,19 @@
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
 .articles{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
 .articles > div{
-    margin-left: 30px;
+    margin-left: 5%;
+}
+
+@media (max-width: 1000px) {
+    .articles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articles > div{
+        margin-bottom: 20px;
+    }
 }

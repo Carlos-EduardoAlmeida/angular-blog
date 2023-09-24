@@ -1,5 +1,5 @@
 .container__aside-card{
-    width: 700px;
+    width: 100%;
     margin-bottom: 10px;
 }
 .container__aside-card-content{
@@ -7,6 +7,7 @@
     flex-direction: row;
 }
 .aside-card__photo img{
+    border-radius: 5px;
     width: 200px;
     min-width: 200px;
 }
@@ -21,4 +22,14 @@
 
 .container__aside-card__separator{
     margin-top: 10px;
+}
+
+.aside-card__title h1 a:hover{
+    color: rgb(209, 190, 15);
+}
+
+@media (max-width: 500px) {
+    .aside-card__title h1{
+        font-size: 20px;
+    }
 }

@@ -1,13 +1,13 @@
 <div class="container__main-card">
 
     <div class="main-card__photo">
-        <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="Image place-holder" height="200px">
+        <img src="{{ photoCover }}" alt="Image place-holder" height="200px">
     </div>
     <div class="main-card__title">
-        <h1><a href="#"> versão do angular</a></h1>
+        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
     </div>
     <div class="main-card__description">
-        <p> vatuvau vatuvau vatuvau afsdjgbskdjngsdkl gsndgknsdl gsdknldgslkd nggnkds dgsgkn</p>
+        <p>{{ cardDescription }}</p>
     </div>
 
 </div>

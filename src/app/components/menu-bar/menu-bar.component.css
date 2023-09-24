@@ -9,3 +9,6 @@
     padding: 6px 12px;
     
 }
+.container__menu-bar li a:hover{
+    color: rgb(209, 190, 15);
+}

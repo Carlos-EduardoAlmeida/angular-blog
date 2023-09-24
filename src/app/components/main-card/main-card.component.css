@@ -11,9 +11,25 @@
     font-size: 25px;
 }
 .main-card__description p{
+    border: 1px solid transparent;
+    padding: 5px;
     margin-top: 9px;
     color: grey;
 }
 .main-card__photo img{
     min-width: 100%;
+    border-radius: 5px;
+}
+
+.main-card__title h1 a:hover{
+    color: rgb(209, 190, 15);
+}
+
+@media (max-width: 500px) {
+    .main-card__title h1{
+        font-size: 23px;
+    }
+    .main-card__photo img{
+        height: 160px;
+    }
 }

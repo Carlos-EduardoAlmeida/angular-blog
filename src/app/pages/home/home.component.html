@@ -1,16 +1,20 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
-
 <app-menu-title></app-menu-title>
 <div class="articles">
     <div class="articles-main">
-        <app-main-card></app-main-card>
+        <app-main-card 
+            id={{firstItem.id}}
+            photoCover={{firstItem.photo}}
+            cardTitle={{firstItem.title}}
+            cardDescription={{firstItem.description}}>
+        </app-main-card>
     </div>
     <div class="articles-aside">
-        <app-aside-card></app-aside-card>
-        <app-aside-card></app-aside-card>
-        <app-aside-card></app-aside-card>
+        <app-aside-card *ngFor="let pub of dataArray"
+            id={{pub.id}}
+            photoCover={{pub.photo}}
+            cardTitle={{pub.title}}>
+        </app-aside-card>
+        
     </div>
 
 </div>
