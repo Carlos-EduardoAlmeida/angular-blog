@@ -33,3 +33,18 @@
         height: 160px;
     }
 }
+@media (min-width: 1800px) {
+    .container__main-card{
+        width: 700px;
+        height: 700px;
+    }
+    .main-card__title h1{
+        font-size: 32px;
+    }
+    .main-card__description p{
+        font-size: 23px;
+    }
+    .main-card__photo img{
+        height: 250px;
+    }
+}
